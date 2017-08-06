@@ -1,5 +1,6 @@
 # dashed-bitsend-coin-adater
 Allows your Wordpress Wallets plugin to interface with the BitSend daemon (bitsendd).
+
 BitSend - www.bitsend.info | MyBitSend - www.mybitsend.com
 
 
