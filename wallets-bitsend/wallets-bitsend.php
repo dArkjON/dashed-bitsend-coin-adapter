@@ -77,14 +77,14 @@ if ( ! class_exists( 'Dashed_Slug_Wallets_Bitsend_RPC' ) ) {
 
 			call_user_func( $network_active ? 'add_site_option' : 'add_option', 'wallets-bitsend-core-node-settings-general-enabled', 'on' );
 			call_user_func( $network_active ? 'add_site_option' : 'add_option', 'wallets-bitsend-core-node-settings-rpc-ip', '127.0.0.1' );
-			call_user_func( $network_active ? 'add_site_option' : 'add_option', 'wallets-bitsend-core-node-settings-rpc-port', '22555' );
+			call_user_func( $network_active ? 'add_site_option' : 'add_option', 'wallets-bitsend-core-node-settings-rpc-port', '8886' );
 			call_user_func( $network_active ? 'add_site_option' : 'add_option', 'wallets-bitsend-core-node-settings-rpc-user', '' );
 			call_user_func( $network_active ? 'add_site_option' : 'add_option', 'wallets-bitsend-core-node-settings-rpc-password', '' );
 			call_user_func( $network_active ? 'add_site_option' : 'add_option', 'wallets-bitsend-core-node-settings-rpc-path', '' );
 
-			call_user_func( $network_active ? 'add_site_option' : 'add_option', 'wallets-bitsend-core-node-settings-fees-move', '0.04000000' );
+			call_user_func( $network_active ? 'add_site_option' : 'add_option', 'wallets-bitsend-core-node-settings-fees-move', '0.05000000' );
 			call_user_func( $network_active ? 'add_site_option' : 'add_option', 'wallets-bitsend-core-node-settings-fees-move-proportional', '0' );
-			call_user_func( $network_active ? 'add_site_option' : 'add_option', 'wallets-bitsend-core-node-settings-fees-withdraw', '2.00000000' );
+			call_user_func( $network_active ? 'add_site_option' : 'add_option', 'wallets-bitsend-core-node-settings-fees-withdraw', '0.00500000' );
 			call_user_func( $network_active ? 'add_site_option' : 'add_option', 'wallets-bitsend-core-node-settings-fees-withdraw-proportional', '0' );
 
 			call_user_func( $network_active ? 'add_site_option' : 'add_option', 'wallets-bitsend-core-node-settings-other-minconf', '6' );

@@ -46,7 +46,7 @@ if ( class_exists( 'Dashed_Slug_Wallets_Coin_Adapter_RPC' ) && ! class_exists( '
 		}
 
 		public function get_sprintf() {
-			return mb_convert_encoding('&#x110;', 'UTF-8', 'HTML-ENTITIES') . '%01.8f';
+			return 'BSD' . '%01.8f';
 		}
 
 		public function get_symbol() {
@@ -54,7 +54,7 @@ if ( class_exists( 'Dashed_Slug_Wallets_Coin_Adapter_RPC' ) && ! class_exists( '
 		}
 
 		public function get_icon_url() {
-			return plugins_url( '../assets/sprites/bitsend-logo.png', __FILE__ );
+			return plugins_url( '../assets/sprites/bitsend-logo.ico', __FILE__ );
 		}
 	}
 }
