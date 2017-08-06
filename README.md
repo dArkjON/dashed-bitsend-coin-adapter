@@ -8,7 +8,7 @@ BitSend - www.bitsend.info | MyBitSend - www.mybitsend.com
 
 - [Wordpress](https://wordpress.org/)
 - [Wordpress AddOn dashed slug](https://www.dashed-slug.net/bitcoin-altcoin-wallets-wordpress-plugin/)
-- [Wordpress AddOn BitSend](https://github.com/dArkjON/dashed-bitsend-coin-adater)
+- [Wordpress AddOn BitSend](https://github.com/dArkjON/dashed-bitsend-coin-adapter)
 - [BitSend RPC Server](https://github.com/LIMXTEC/BitSend)
 
 ### Install
